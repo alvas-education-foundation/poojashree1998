@@ -1,3 +1,4 @@
+#remove ith element
 def remove(string, i):  
   
     for j in range(len(string)): 
