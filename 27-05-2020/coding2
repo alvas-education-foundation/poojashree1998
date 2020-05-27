@@ -1,0 +1,17 @@
+BubbleSort (Arr, N) 
+    For ( I:= 1 to (N-1) )
+    {
+    
+        noSwap = true; 
+        For ( J:= 1 to  (N-I) ) 
+        {
+            If ( Arr [J] > Arr[J+1] )
+            { 
+                Swap( Arr[j], Arr[J+1] );
+                noSwap = false;
+            }
+        }
+        If (noSwap) 
+            break;
+    }
+}
